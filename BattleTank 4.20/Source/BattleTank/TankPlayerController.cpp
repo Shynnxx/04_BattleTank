@@ -7,5 +7,5 @@
 
 ATank * ATankPlayerController::GetControlledTank() const
 {
-	Cast<ATank>(GetPawn());
+	 return Cast<ATank>(GetPawn());
 }
